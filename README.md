@@ -32,3 +32,8 @@ class MyClass {
     System.out.println("Sum is: " + sum); // Print the sum
   }
 } 
+public class SyntaxError {
+    public static void main(String[] args) {
+        System.out.println("Hello World") // Missing semicolon here
+    }
+}
